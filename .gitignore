@@ -1,0 +1,28 @@
+node_modules/
+npm-debug.log*
+
+# next.js
+.next
+
+# exported static app
+/out
+
+# webstorm ignore
+/.idea
+
+# testing-logs
+/coverage
+
+.DS_Store
+
+.firebase
+
+cypress/videos
+cypress/screenshots
+
+# Bundle analyzer reports
+bundles
+
+#Generated data
+/data
+

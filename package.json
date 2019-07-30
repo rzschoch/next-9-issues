@@ -1,0 +1,52 @@
+{
+  "name": "test-app",
+  "description": "",
+  "version": "0.0.1",
+  "private": true,
+  "author": "",
+  "license": "UNLICENSED",
+  "repository": {},
+  "browserslist": [
+    "> 1%",
+    "last 3 versions",
+    "IE 11"
+  ],
+  "scripts": {
+    "dev": "next src",
+    "build": "next build src",
+    "start": "next start src",
+    "export": "next export src outDir=./out",
+    "static": "npm run build && npm run export",
+    "lint": "eslint .",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "bundle-analyse": "BUNDLE_ANALYZE=both npm run build"
+  },
+  "dependencies": {
+    "@zeit/next-css": "1.0.1",
+    "next": "9.0.2",
+    "prop-types": "15.7.2",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "react-error-boundary": "1.2.5"
+  },
+  "devDependencies": {
+    "@zeit/next-bundle-analyzer": "0.1.2",
+    "autoprefixer": "9.6.1",
+    "babel-eslint": "10.0.2",
+    "babel-plugin-dynamic-import-node": "2.3.0",
+    "babel-plugin-inline-react-svg": "1.1.0",
+    "enzyme": "3.10.0",
+    "enzyme-adapter-react-16": "1.14.0",
+    "enzyme-to-json": "3.3.5",
+    "eslint": "6.1.0",
+    "eslint-config-prettier": "6.0.0",
+    "eslint-plugin-cypress": "2.6.0",
+    "eslint-plugin-prettier": "3.1.0",
+    "eslint-plugin-react": "7.14.3",
+    "identity-obj-proxy": "3.0.0",
+    "intl": "1.2.5",
+    "jest": "24.8.0",
+    "prettier": "1.18.2"
+  }
+}
