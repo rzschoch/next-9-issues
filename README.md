@@ -1,7 +1,8 @@
-how to reproduce:
-- npm install
-- npm run test
+# Steps to reproduce:
 
-only test for _app.js will fail with
+1. npm install
+2. npm run test
 
-TypeError: Class constructor App cannot be invoked without 'new'
+Only the test for `_app.js` will fail with:
+
+`TypeError: Class constructor App cannot be invoked without 'new'`
